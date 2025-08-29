@@ -11,4 +11,4 @@ This Spring Boot app:
 ## Note
 The app worked for me on the **first run** with a fresh token.  
 On subsequent runs with the same token/webhook, the server responded with `401 Unauthorized`, which indicates the token has expired or is single-use.  
-The logic and SQL query are correct — re-run the app fresh to generate a new token.
+The logic and SQL query are correct : re-run the app fresh to generate a new token.
